@@ -1,3 +1,5 @@
+// Revise la documentación oficial para conocer todas las variables superglobals que existen. Con ayuda de la función print_r muestra el contenido de cada una de las variables superglobals.
+
 <?php
     echo "<h1>\$_SERVER</h1>";
     echo "<pre>";
