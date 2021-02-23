@@ -1,5 +1,5 @@
 <?php
-
+// Escribe un script PHP que genere un número aleatorio entre 1 y 10, simulando una nota numérica y muestre un mensaje indicando la calificación obtenida teniendo en cuenta los siguientes rangos:
 $nota = rand(0, 10);
 
 echo "<h2>Nota: $nota</h2>";

@@ -1,5 +1,5 @@
 <?php
-
+// Escribe un script PHP que genere un número aleatorio entre 1 y 7, y muestre un mensaje indicando a qué día de la semana corresponde. Por ejemplo, 1 sería lunes, 2 martes, etc.
 $dia = rand(1, 7);
 
 echo "<h2>Día: $dia</h2>";
@@ -31,6 +31,5 @@ switch ($dia) {
 
     case 7:
         echo "Domingo";
-        break;
-
+    }
 ?>
