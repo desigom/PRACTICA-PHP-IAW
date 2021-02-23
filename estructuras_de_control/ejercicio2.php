@@ -1,21 +1,19 @@
 <?php
 
-%nota = rand(0, 10);
+$nota = rand(0, 10);
 
 echo "<h2>Nota: $nota</h2>";
 
-if ($nota >= 0 && < 5) {
+if ($nota >= 0 && $nota < 5) {
     echo "Insuficiente";
-} elseif ($nota >=5 && < 6){
+} elseif ($nota >=5 && $nota < 6) {
     echo "Suficiente";
-} elseif ($nota >=6 && < 7){
+} elseif ($nota >=6 && $nota < 7) {
     echo "Bien";
-} elseif ($nota >= 7 && < 8){
+} elseif ($nota >= 7 && $nota < 9) {
     echo "Notable";
-} elseif ($nota >= 9 && <= 10){
+} elseif ($nota >= 9 && $nota <= 10) {
     echo "Sobresaliente";
 }
-
-
 
 ?>
