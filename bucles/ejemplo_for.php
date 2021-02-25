@@ -1,4 +1,5 @@
 <?php
+// Mostrar numeros del 1 al 10 y del 10 al 1
 
 echo "<h1>Ascendente</h1>";
 
