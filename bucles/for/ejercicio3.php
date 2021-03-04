@@ -12,9 +12,9 @@
         <?php
         //  Escribe un script PHP que muestre en una tabla los números pares que existen entre 1 y 100. Utiliza un bucle for.
             for($i=2; $i<=100; $i= $i+2) {
-                echo "<td>";
-                echo "$i";
-                echo "</td>";
+                echo "<tr>";
+                echo "<td>$i</td>";
+                echo "</tr>";
             }
         ?>
     </table>
