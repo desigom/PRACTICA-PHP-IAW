@@ -1,6 +1,6 @@
 <?php
 // Definimos una constante con el numero de elementos del array
-define("num_elementos", 100);
+define("num_elementos", 10);
 
 // Paso 1. Declaración del array
 $lista = array();
@@ -16,7 +16,9 @@ for ($i = 0; $i < num_elementos; $i++) {
     echo "<br>";
 }
 
-echo "El valor minimo es : ".max($lista);
+$minimo = min($lista);
+
+echo "El valor minimo es : $minimo";
 
 
 ?>
